@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/xrgonoqe" method="POST">
+
+        <label for="name">First name:</label>
+        <input type="text" name="name" id="name"> <br> <br>
+
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname"> <br> <br>
+
+        <label for="email">e-mail</label>
+        <input type="email" name="email" id="email"> <br> <br>
+
+        <label for="phone">Phone number</label>
+        <input type="tel" name="phone" id="phone"> <br> <br>
+
+        <label for="city">Choose city</label>
+        <select name="city" id="city">
+            <option value="krakow">Krakow</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdansk</option>
+        </select> <br> <br>
+
+        <p>Please select your gender:</p>
+        
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label> <br> <br>
+
+        
+        <input type="checkbox" id="privacy" name="privacy"> 
+        <label for="privacy"> I have read and accepted the Terms of Use and Privacy Policy</label> <br> <br>
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30"></textarea> <br> <br>
+
+        <input type="submit" value="Send message">
+
+    </form>
+</body>
+
+</html>
